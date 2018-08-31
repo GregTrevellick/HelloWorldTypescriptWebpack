@@ -15,7 +15,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'wwwroot'),
-        filename: 'app.[hash].js'
+        filename: 'app5.js'
     },
     module: {
         rules: [
