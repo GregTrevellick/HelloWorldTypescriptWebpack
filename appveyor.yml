@@ -12,12 +12,15 @@ before_build:
     - cmd: nuget restore "Angular .NET Core RESTfulAPI1.sln"
     - choco install opencover.portable
     - choco install codecov
-    - SonarScanner.MSBuild.exe begin /k:"HelloWorldTypescriptWebpack" /d:"sonar.host.url=https://sonarqube.com" /d:"sonar.login=%my_encrypted_sonarqube_token%" /d:"sonar.organization=gregtrevellick-github"
+    # AppVeyor does not decrypt the secure env vars for PR builds (prevents someone from submitting PR with malicious build script displaying those variables)
+    #- SonarScanner.MSBuild.exe begin /k:"HelloWorldTypescriptWebpack" /d:"sonar.host.url=https://sonarqube.com" /d:"sonar.login=%my_encrypted_sonarqube_token%" /d:"sonar.organization=gregtrevellick-github"
+    - ps: 'if (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER) { SonarScanner.MSBuild.exe begin /k:"HelloWorldTypescriptWebpack" /d:sonar.host.url="https://sonarqube.com" /d:sonar.login="$env:my_encrypted_sonarqube_token" /d:sonar.organization="gregtrevellick-github" }'
 build:
     project: "Angular .NET Core RESTfulAPI1.sln"
     verbosity: minimal
 after_build:
-    - SonarScanner.MSBuild.exe end /d:"sonar.login=%my_encrypted_sonarqube_token%"
+    #- SonarScanner.MSBuild.exe end /d:"sonar.login=%my_encrypted_sonarqube_token%"
+    - ps: 'if (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER) { SonarScanner.MSBuild.exe end /d:sonar.login="$env:my_encrypted_sonarqube_token" }'
 notifications:
 - provider: Email
   to:
