@@ -38,7 +38,7 @@
     "resolve-url-loader": "2.2.1",
     "style-loader": "0.20.3",
     "to-string-loader": "1.1.5",
-    "ts-loader": "3.5.0",
+    "ts-loader": "5.4.5",
     "typescript": "2.7.2",
     "@types/node": "8.9.5",
     "url-loader": "0.6.2",
