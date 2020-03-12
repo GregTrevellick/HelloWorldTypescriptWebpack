@@ -5,9 +5,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b8374c0381374e82828d292bbdbb85ef)](https://www.codacy.com/project/gtrevellick/HelloWorldTypescriptWebpack/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/HelloWorldTypescriptWebpack&amp;utm_campaign=Badge_Grade_Dashboard)
 [![CodeBeat](https://codebeat.co/badges/undefined)](https://codebeat.co/projects/github-com-gregtrevellick-helloworldtypescriptwebpack-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/HelloWorldTypescriptWebpack/badge)](https://www.codefactor.io/repository/github/GregTrevellick/HelloWorldTypescriptWebpack)
-[![CodeScene Code Health](https://codescene.io/projects/undefined/status-badges/code-health)](https://codescene.io/projects/undefined)
-[![CodeScene general](https://codescene.io/images/analyzed-by-codescene-badge.svg)](https://codescene.io/projects/undefined)
-[![CodeScene System Mastery](https://codescene.io/projects/undefined/status-badges/system-mastery)](https://codescene.io/projects/undefined)
+<!-- no md -->
+<!-- no md -->
+<!-- no md -->
 [![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/HelloWorldTypescriptWebpack.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/HelloWorldTypescriptWebpack/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/HelloWorldTypescriptWebpack.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/HelloWorldTypescriptWebpack/context:javascript)
 [![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/HelloWorldTypescriptWebpack.svg)](https://github.com/GregTrevellick/HelloWorldTypescriptWebpack)
