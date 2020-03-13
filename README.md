@@ -5,9 +5,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b8374c0381374e82828d292bbdbb85ef)](https://www.codacy.com/project/gtrevellick/HelloWorldTypescriptWebpack/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/HelloWorldTypescriptWebpack&amp;utm_campaign=Badge_Grade_Dashboard)
 [![CodeBeat](https://codebeat.co/badges/undefined)](https://codebeat.co/projects/github-com-gregtrevellick-helloworldtypescriptwebpack-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/HelloWorldTypescriptWebpack/badge)](https://www.codefactor.io/repository/github/GregTrevellick/HelloWorldTypescriptWebpack)
-<!-- no md -->
-<!-- no md -->
-[![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/HelloWorldTypescriptWebpack.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/HelloWorldTypescriptWebpack/alerts/)
+  [![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/HelloWorldTypescriptWebpack.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/HelloWorldTypescriptWebpack/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/HelloWorldTypescriptWebpack.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/HelloWorldTypescriptWebpack/context:javascript)
 [![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/HelloWorldTypescriptWebpack.svg)](https://github.com/GregTrevellick/HelloWorldTypescriptWebpack)
 [![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/HelloWorldTypescriptWebpack.svg)](https://github.com/GregTrevellick/HelloWorldTypescriptWebpack)
@@ -34,7 +32,6 @@
 [![Charity Ware](https://img.shields.io/badge/charity%20ware-thank%20you-brightgreen.svg)](https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware)
 [![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 [![Subscribe](https://img.shields.io/badge/subscribe%20to%20receive%20notificatons-grey.svg)](https://github.com/GregTrevellick/HelloWorldTypescriptWebpack/subscription)
-<!-- no md -->
-
+ 
 <!--BadgesEND-->
 
