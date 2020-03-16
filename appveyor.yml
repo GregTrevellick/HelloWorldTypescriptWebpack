@@ -14,7 +14,7 @@ before_build:
     #- dotnet sonarscanner begin /key:"HelloWorldTypescriptWebpack" /d:"sonar.host.url=https://sonarcloud.io" /d:"sonar.login=%my_encrypted_sonarqube_token%" /o:"gregtrevellick-github"
     #- ps: 'if (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER) { & dotnet sonarscanner begin /key:"HelloWorldTypescriptWebpack" /d:"sonar.host.url=https://sonarcloud.io" /d:"sonar.login=$env:my_encrypted_sonarqube_token" /o:"gregtrevellick-github" /v:"$env:APPVEYOR_BUILD_NUMBER" }'
     - dotnet tool install -g dotnet-sonarscanner
-    - dotnet sonarscanner begin /key:"AzureDevOpsBlazorRadiator" /d:"sonar.host.url=https://sonarcloud.io" /d:"sonar.login=%my_encrypted_sonarqube_token%" /o:"gregtrevellick-github"
+    - dotnet sonarscanner begin /key:"HelloWorldTypescriptWebpack" /d:"sonar.host.url=https://sonarcloud.io" /d:"sonar.login=%my_encrypted_sonarqube_token%" /o:"gregtrevellick-github"
 build:
     project: "Angular .NET Core RESTfulAPI1.sln"
     verbosity: minimal
